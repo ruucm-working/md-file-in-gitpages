@@ -1,0 +1,26 @@
+# Site settings
+title: "ruucm"
+description: > 
+  logs
+
+author: ruucm
+email: ruucm.a@gmail.com
+twitter_username:
+github_username:
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ruucm-working.github.io/md-file-in-gitpages/" # the base hostname & protocol for your site
+
+google_analytics_id: UA-1111111111-1
+disqus_id:
+
+# Build settings
+include:
+markdown: kramdown
+permalink: /:year/:month/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
